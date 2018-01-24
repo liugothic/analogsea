@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: dodgerblue;
+	font-family: "Roboto", helvetica, sans-serif;
+}
+
+.logo{
+	display: block;
+	height: 35px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.form{
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 440px;
+	padding: 40px;
+}
+
+.sign-up{
+	text-align: center;
+	color: grey;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.form fieldset{
+	border: none;
+	margin-left: -15px;
+}
+
+.form label, .form input, .form button{
+	display: block;
+}
+
+.form input, .form button{
+	width: 320px;
+	border: 2px solid lightgrey;
+	padding: 15px;
+	height: 55px;
+}
+
+.form label, .form input{
+	margin-bottom: 15px;
+}
+
+.form input{
+	background-color: snow;
+	font-size: 16px;
+}
+
+.form button{
+	background-color: limegreen;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	border-color: lightseagreen;
+	cursor: pointer;
+}
+
+.form button:hover{
+	background-color: #0CB863;
+}
+
+footer{
+	color: white;
+	text-align: center;
+	font-size: 13px;
+}
+
+footer a{
+	color: white;
+}
